@@ -1,0 +1,48 @@
+
+
+@import "compass/reset";
+@import "compass";
+@import "variables";
+
+html{
+
+  //font-family: 'Libre Baskerville', serif;
+  //font-family:arial;
+  font-family:'Brandon';
+  background:black;
+  width:100%;
+  height:100%;
+}
+body{
+  width:100%;
+  height:100%;
+}
+#background{
+  display:none;
+}
+sup {
+  vertical-align: super;
+  font-size: 8px; 
+}
+a{
+  @include transition(all .2s);
+  text-transform:uppercase;
+  text-decoration:none;
+  color:black;
+}
+hr { 
+  display: block; 
+  height: 1px;
+  border: 0; 
+  @include background(radial-gradient(rgba(black,1), rgba(white,0) 80%));
+  margin: 20px 0;  
+}
+
+@import "fonts";
+@import "mixins";
+@import "header";
+@import "main";
+@import "avgrund";
+@import "media";
+@import "arrows";
+@import "logic";

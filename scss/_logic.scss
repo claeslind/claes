@@ -1,0 +1,11 @@
+#body-claes{
+	#home {
+		color:$headerLinkHoverColor;
+	}
+} 
+
+body.video{
+
+	@include scale(1);
+
+}

@@ -1,0 +1,46 @@
+#prev{
+  display:block;
+  position:fixed;
+  top:50%;
+  margin-top:-20px;
+  margin-left:-20px;
+  color:rgba(100,100,100,.7);
+  @include mainElementShadow();
+  p{
+    display:inline-block;
+    position:relative;
+    vertical-align:top;
+    margin-top:14px;
+    font-size:10px;
+    margin-left:10px;
+  }
+  &:hover{
+    color:rgba(70,70,70,1);
+    @include mainElementShadow();
+  }
+}
+#next{
+  display:block;
+  position:fixed;
+  top:50%;
+  margin-top:-20px;
+  right:-20px;
+  color:rgba(100,100,100,.7);
+  @include mainElementShadow();
+  p{
+    display:inline-block;
+    position:relative;
+    vertical-align:top;
+    margin-top:14px;
+    margin-right:-5px;
+    font-size:10px;
+  }
+  &:hover{
+    color:rgba(70,70,70,1);
+  }
+}
+.arrow{
+  font-size:40px;
+  padding:20px;
+  z-index:99;
+}

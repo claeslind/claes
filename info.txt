@@ -1,0 +1,22 @@
+fonts use:
+
+Baskeville:
+
+projectrubrik.
+längre text.
+namn i credits
+
+
+
+Credit:
+
+play!!!
+
+Brandon:
+
+på allt.
+
+
+
+
+Ändra tillbaka @font-face till root när den publiceras.

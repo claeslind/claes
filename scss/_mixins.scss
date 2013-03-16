@@ -1,0 +1,22 @@
+@mixin headerDropShadow(){
+  @include box-shadow(0px 4px 3px rgba(black,.1));
+}
+@mixin mainElementShadow(){
+  @include text-shadow(
+    0px -1px 0px rgba(white,.2),
+    0px 1px 3px rgba(black,.3));
+}
+@mixin scale($value){
+  -webkit-transform: scale( $value );
+	   -moz-transform: scale( $value );
+	    -ms-transform: scale( $value );
+	     -o-transform: scale( $value );
+	        transform: scale( $value );
+}
+@mixin avgrundAnimation($value){
+  -webkit-transition: $value+s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	   -moz-transition: $value+s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	    -ms-transition: $value+s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	     -o-transition: $value+s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	        transition: $value+s all cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}

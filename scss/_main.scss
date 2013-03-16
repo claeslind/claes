@@ -1,0 +1,78 @@
+#main-wrapper{
+  width:100%;
+  min-height:100%;
+  background:white;
+  display:block;
+  color:black;
+  left:-0%;
+  opacity:0;
+  @include transition(all .6s);
+  &.on{
+    opacity:1;
+  }
+  .category{
+    text-decoration:none;
+    display:block;
+    position:fixed;
+    top:60px;
+    left:60px;
+    font-size:12px;
+    @include mainElementShadow();
+  }
+ 
+}
+.claes, .work, .field, .contact{
+  display:block;
+  width:100%;
+  padding-top:60px;
+}
+#content{
+  width:100%;
+  height:100%;
+  position:absolute;
+  color:black;
+  display:block;
+  .text-wrapper{
+    @include box-sizing(border-box);
+    padding:40px;
+    padding-top:90px;
+    display:block;
+    height:100%;
+    width:400px;
+    background:white;
+    position:absolute;
+    right:100px;
+    text-align:center;
+    text-transform:uppercase;
+    a.playButton{
+      display:block;
+      position:relative;
+      font-size:90px;
+      font-family:"Credit";
+      letter-spacing:30px;
+      margin-top:20px;
+      margin-bottom:-20px;
+    }
+    
+    h2{
+      font-family: 'Baskerville';
+      font-size:32px;
+      font-weight: 100;
+      padding:10px;
+    }
+    h3{
+      font-size:12px;
+      font-weight:bold;
+      color:rgba(black,.5);
+      padding-bottom:5px;
+    }
+    h4{
+      
+    }
+    p{
+      font-size:14px;
+      color:rgba(black,.8);
+      padding-bottom:40px;
+    }
+  }
+}
